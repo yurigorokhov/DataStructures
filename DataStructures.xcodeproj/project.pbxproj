@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		BAB9B1751A16F2870088946A /* DataStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB9B1741A16F2870088946A /* DataStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAB9B17B1A16F2870088946A /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB9B16F1A16F2870088946A /* DataStructures.framework */; };
-		BAB9B1821A16F2870088946A /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9B1811A16F2870088946A /* DataStructuresTests.swift */; };
+		BAB9B18C1A16F2D00088946A /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9B18B1A16F2D00088946A /* Heap.swift */; };
+		BAB9B18E1A16F3350088946A /* PeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9B18D1A16F3350088946A /* PeekTests.swift */; };
+		BAB9B1921A1719F20088946A /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9B18B1A16F2D00088946A /* Heap.swift */; };
+		BAB9B1951A171F9B0088946A /* ExtractMinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9B1941A171F9B0088946A /* ExtractMinTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,9 @@
 		BAB9B1741A16F2870088946A /* DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
 		BAB9B17A1A16F2870088946A /* DataStructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB9B1801A16F2870088946A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAB9B1811A16F2870088946A /* DataStructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresTests.swift; sourceTree = "<group>"; };
+		BAB9B18B1A16F2D00088946A /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		BAB9B18D1A16F3350088946A /* PeekTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekTests.swift; sourceTree = "<group>"; };
+		BAB9B1941A171F9B0088946A /* ExtractMinTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtractMinTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,7 @@
 			children = (
 				BAB9B1741A16F2870088946A /* DataStructures.h */,
 				BAB9B1721A16F2870088946A /* Supporting Files */,
+				BAB9B18B1A16F2D00088946A /* Heap.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -88,7 +94,8 @@
 		BAB9B17E1A16F2870088946A /* DataStructuresTests */ = {
 			isa = PBXGroup;
 			children = (
-				BAB9B1811A16F2870088946A /* DataStructuresTests.swift */,
+				BAB9B1941A171F9B0088946A /* ExtractMinTests.swift */,
+				BAB9B18D1A16F3350088946A /* PeekTests.swift */,
 				BAB9B17F1A16F2870088946A /* Supporting Files */,
 			);
 			path = DataStructuresTests;
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB9B18C1A16F2D00088946A /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB9B1821A16F2870088946A /* DataStructuresTests.swift in Sources */,
+				BAB9B18E1A16F3350088946A /* PeekTests.swift in Sources */,
+				BAB9B1951A171F9B0088946A /* ExtractMinTests.swift in Sources */,
+				BAB9B1921A1719F20088946A /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +325,7 @@
 		BAB9B1861A16F2870088946A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -326,12 +337,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		BAB9B1871A16F2870088946A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -397,6 +410,7 @@
 				BAB9B1871A16F2870088946A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAB9B1881A16F2870088946A /* Build configuration list for PBXNativeTarget "DataStructuresTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +419,7 @@
 				BAB9B18A1A16F2870088946A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
