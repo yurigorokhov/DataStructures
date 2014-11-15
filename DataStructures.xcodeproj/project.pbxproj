@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB9B1751A16F2870088946A /* DataStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB9B1741A16F2870088946A /* DataStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB9B17B1A16F2870088946A /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB9B16F1A16F2870088946A /* DataStructures.framework */; };
+		BAB9B1821A16F2870088946A /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9B1811A16F2870088946A /* DataStructuresTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAB9B17C1A16F2870088946A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAB9B1661A16F2870088946A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAB9B16E1A16F2870088946A;
+			remoteInfo = DataStructures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAB9B16F1A16F2870088946A /* DataStructures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB9B1731A16F2870088946A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB9B1741A16F2870088946A /* DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
+		BAB9B17A1A16F2870088946A /* DataStructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB9B1801A16F2870088946A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB9B1811A16F2870088946A /* DataStructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB9B16B1A16F2870088946A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB9B1771A16F2870088946A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9B17B1A16F2870088946A /* DataStructures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB9B1651A16F2870088946A = {
+			isa = PBXGroup;
+			children = (
+				BAB9B1711A16F2870088946A /* DataStructures */,
+				BAB9B17E1A16F2870088946A /* DataStructuresTests */,
+				BAB9B1701A16F2870088946A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB9B1701A16F2870088946A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9B16F1A16F2870088946A /* DataStructures.framework */,
+				BAB9B17A1A16F2870088946A /* DataStructuresTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB9B1711A16F2870088946A /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9B1741A16F2870088946A /* DataStructures.h */,
+				BAB9B1721A16F2870088946A /* Supporting Files */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		BAB9B1721A16F2870088946A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9B1731A16F2870088946A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAB9B17E1A16F2870088946A /* DataStructuresTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9B1811A16F2870088946A /* DataStructuresTests.swift */,
+				BAB9B17F1A16F2870088946A /* Supporting Files */,
+			);
+			path = DataStructuresTests;
+			sourceTree = "<group>";
+		};
+		BAB9B17F1A16F2870088946A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9B1801A16F2870088946A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BAB9B16C1A16F2870088946A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9B1751A16F2870088946A /* DataStructures.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BAB9B16E1A16F2870088946A /* DataStructures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB9B1851A16F2870088946A /* Build configuration list for PBXNativeTarget "DataStructures" */;
+			buildPhases = (
+				BAB9B16A1A16F2870088946A /* Sources */,
+				BAB9B16B1A16F2870088946A /* Frameworks */,
+				BAB9B16C1A16F2870088946A /* Headers */,
+				BAB9B16D1A16F2870088946A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataStructures;
+			productName = DataStructures;
+			productReference = BAB9B16F1A16F2870088946A /* DataStructures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAB9B1791A16F2870088946A /* DataStructuresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB9B1881A16F2870088946A /* Build configuration list for PBXNativeTarget "DataStructuresTests" */;
+			buildPhases = (
+				BAB9B1761A16F2870088946A /* Sources */,
+				BAB9B1771A16F2870088946A /* Frameworks */,
+				BAB9B1781A16F2870088946A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAB9B17D1A16F2870088946A /* PBXTargetDependency */,
+			);
+			name = DataStructuresTests;
+			productName = DataStructuresTests;
+			productReference = BAB9B17A1A16F2870088946A /* DataStructuresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB9B1661A16F2870088946A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yuri Gorokhov";
+				TargetAttributes = {
+					BAB9B16E1A16F2870088946A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BAB9B1791A16F2870088946A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = BAB9B1691A16F2870088946A /* Build configuration list for PBXProject "DataStructures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAB9B1651A16F2870088946A;
+			productRefGroup = BAB9B1701A16F2870088946A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB9B16E1A16F2870088946A /* DataStructures */,
+				BAB9B1791A16F2870088946A /* DataStructuresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB9B16D1A16F2870088946A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB9B1781A16F2870088946A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB9B16A1A16F2870088946A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB9B1761A16F2870088946A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9B1821A16F2870088946A /* DataStructuresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAB9B17D1A16F2870088946A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAB9B16E1A16F2870088946A /* DataStructures */;
+			targetProxy = BAB9B17C1A16F2870088946A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BAB9B1831A16F2870088946A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAB9B1841A16F2870088946A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BAB9B1861A16F2870088946A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DataStructures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BAB9B1871A16F2870088946A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = DataStructures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BAB9B1891A16F2870088946A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataStructuresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAB9B18A1A16F2870088946A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataStructuresTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB9B1691A16F2870088946A /* Build configuration list for PBXProject "DataStructures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9B1831A16F2870088946A /* Debug */,
+				BAB9B1841A16F2870088946A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB9B1851A16F2870088946A /* Build configuration list for PBXNativeTarget "DataStructures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9B1861A16F2870088946A /* Debug */,
+				BAB9B1871A16F2870088946A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAB9B1881A16F2870088946A /* Build configuration list for PBXNativeTarget "DataStructuresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9B1891A16F2870088946A /* Debug */,
+				BAB9B18A1A16F2870088946A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB9B1661A16F2870088946A /* Project object */;
+}
